@@ -1,5 +1,7 @@
 # pre-commit
 
+[![Build Status](https://badgen.net/travis/sloria/konch/master)](https://travis-ci.org/sloria/pre-commit-docker)
+
 Run pre-commit (https://pre-commit.com) in Docker.
 
 ```
