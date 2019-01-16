@@ -1,0 +1,6 @@
+---
+  services:
+    - docker
+  script:
+    - docker build -t sloria/pre-commit .
+    - docker run --rm -v $(pwd):/root sloria/pre-commit
