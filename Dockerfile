@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.6-alpine
 LABEL maintainer "Steven Loria <sloria1@gmail.com>"
 RUN apk add --update git && rm -rf /var/cache/apk/*
 RUN mkdir /pre-commit
